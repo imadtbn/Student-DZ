@@ -108,6 +108,56 @@
             margin-top: 0;
         }
 
+        /* هوية بصرية لبطاقات المنصات: أيقونة دلالية مركزية من Font Awesome */
+        #platGrid .platform-card {
+            text-align: center !important;
+            align-items: center !important;
+            overflow: hidden;
+        }
+
+        #platGrid .platform-card-icon {
+            width: 76px;
+            height: 76px;
+            flex: 0 0 76px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 2px auto 0;
+            border-radius: 22px;
+            background: linear-gradient(145deg, rgba(0, 122, 94, .12), rgba(0, 166, 128, .05));
+            border: 1px solid rgba(0, 122, 94, .16);
+            color: var(--primary-color);
+            font-size: 2rem;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,.55), 0 8px 22px rgba(0, 122, 94, .08);
+            transition: transform .25s ease, background-color .25s ease, color .25s ease, box-shadow .25s ease;
+        }
+
+        #platGrid .platform-card:hover .platform-card-icon {
+            transform: translateY(-3px) scale(1.06);
+            color: #fff;
+            background: linear-gradient(145deg, var(--primary-color), var(--primary-light));
+            box-shadow: 0 10px 24px rgba(0, 122, 94, .22);
+        }
+
+        #platGrid .platform-card .card-title {
+            width: 100%;
+            padding: 0;
+            text-align: center;
+            line-height: 1.45;
+        }
+
+        #platGrid .platform-card .card-desc {
+            width: 100%;
+            margin-top: 0 !important;
+            text-align: center;
+        }
+
+        [data-theme="dark"] #platGrid .platform-card-icon {
+            background: linear-gradient(145deg, rgba(0, 166, 128, .20), rgba(0, 122, 94, .08));
+            border-color: rgba(0, 166, 128, .28);
+            box-shadow: none;
+        }
+
         @media (max-width:480px) {
             .filter-bar input {
                 min-width: 100%;
@@ -253,6 +303,27 @@
             countElement.textContent = count.toLocaleString('ar-DZ');
             labelElement.textContent = 'منصة رسمية';
         }
+        function getPlatformIcon(platform) {
+            const id = String(platform.id || '').toLowerCase();
+            const name = String(platform.name || '').toLowerCase();
+            const text = `${id} ${name}`;
+
+            if (/progres|mesrs|تعليم|جامع|طالب/.test(text)) return 'fa-solid fa-graduation-cap';
+            if (/sntf|rail|قطار|سكك/.test(text)) return 'fa-solid fa-train';
+            if (/transport|نقل|مواصل/.test(text)) return 'fa-solid fa-bus';
+            if (/poste|بريد/.test(text)) return 'fa-solid fa-envelopes-bulk';
+            if (/interieur|داخلية|جماعات/.test(text)) return 'fa-solid fa-landmark';
+            if (/campuce|job|توظيف|عمل/.test(text)) return 'fa-solid fa-briefcase';
+            if (/dgsn|شرطة|أمن/.test(text)) return 'fa-solid fa-shield-halved';
+            if (/emergency|طوارئ|نجدة/.test(text)) return 'fa-solid fa-truck-medical';
+            if (/meteo|طقس/.test(text)) return 'fa-solid fa-cloud-sun';
+            if (/anpdp|معطيات|بيانات|حماية/.test(text)) return 'fa-solid fa-user-shield';
+            if (/apostille|أبوستيل|خارج/.test(text)) return 'fa-solid fa-file-circle-check';
+            if (/mobilis|djezzy|ooredoo|telephon|هاتف|نقال/.test(text)) return 'fa-solid fa-mobile-screen-button';
+            if (/hcn|رقمن|رقمية|بوابة|portal|خدمات/.test(text)) return 'fa-solid fa-laptop-code';
+            return 'fa-solid fa-globe';
+        }
+
         function renderGrid(data) {
             const grid = document.getElementById('platGrid');
             grid.innerHTML = '';
@@ -264,9 +335,10 @@
             data.forEach(p => {
                 const id = `platform:${p.id || p.name}`;
                 grid.insertAdjacentHTML('beforeend', `
-                    <article class="card" style="text-align:right;align-items:flex-start;" data-favorite-id="${id.replace(/&/g, '&amp;').replace(/\"/g, '&quot;')}" data-favorite-title="${String(p.name || '').replace(/&/g, '&amp;').replace(/\"/g, '&quot;')}" data-favorite-description="${String(p.description || '').replace(/&/g, '&amp;').replace(/\"/g, '&quot;')}" data-favorite-url="${String(p.officialUrl || '').replace(/&/g, '&amp;').replace(/\"/g, '&quot;')}" data-favorite-type="platforms" data-favorite-icon="fa-solid fa-globe">
+                    <article class="card platform-card" data-favorite-id="${id.replace(/&/g, '&amp;').replace(/\"/g, '&quot;')}" data-favorite-title="${String(p.name || '').replace(/&/g, '&amp;').replace(/\"/g, '&quot;')}" data-favorite-description="${String(p.description || '').replace(/&/g, '&amp;').replace(/\"/g, '&quot;')}" data-favorite-url="${String(p.officialUrl || '').replace(/&/g, '&amp;').replace(/\"/g, '&quot;')}" data-favorite-type="platforms" data-favorite-icon="${getPlatformIcon(p)}">
+                        <div class="platform-card-icon" aria-hidden="true"><i class="${getPlatformIcon(p)}"></i></div>
                         <h3 class="card-title">${p.name}</h3>
-                        <p class="card-desc" style="margin-top:10px;">${p.description}</p>
+                        <p class="card-desc">${p.description}</p>
                         <a href="${p.officialUrl}" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:auto;width:100%;text-align:center;"><i class="fa-solid fa-arrow-up-right-from-square"></i> دخول للمنصة</a>
                     </article>
                 `);
