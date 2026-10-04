@@ -119,7 +119,6 @@ if (typeof module !== 'undefined' && module.exports) module.exports = CONFIG;
         return new Promise(resolve => {
             const script = document.createElement('script');
             script.async = true; script.crossOrigin = 'anonymous'; script.dataset.studentDzAdsense = 'true';
-            script.dataset.overlays = 'bottom';
             script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${encodeURIComponent(client)}`;
             script.onload = resolve; script.onerror = resolve; document.head.appendChild(script);
         });
@@ -131,16 +130,34 @@ if (typeof module !== 'undefined' && module.exports) module.exports = CONFIG;
         return main.querySelector('.page-intro,.section-title,.breadcrumb') || main.firstElementChild;
     }
     function createAd(type) {
-        if (document.getElementById('globalAdUnit') || document.querySelector('.dz-ad-container .adsbygoogle')) return;
+        if (document.getElementById('globalAdUnit') || document.querySelector('.dz-ad-container .adsbygoogle')) return null;
         const placement = findPlacement(type); const slot = settings?.ads?.slots?.[type]; const client = settings?.ads?.publisherId;
-        if (!placement || !slot?.id || !client || settings?.ads?.enabled !== true) return;
-        const wrapper = document.createElement('div'); wrapper.id = 'globalAdUnit'; wrapper.className = `dz-ad-container dz-ad-container--${type}`; wrapper.setAttribute('aria-label', 'إعلان'); wrapper.setAttribute('role', 'complementary');
+        if (!placement || !slot?.id || !client || settings?.ads?.enabled !== true) return null;
+        const wrapper = document.createElement('div'); wrapper.id = 'globalAdUnit'; wrapper.className = `dz-ad-container dz-ad-container--${type} dz-ad-container--pending`; wrapper.setAttribute('aria-label', 'إعلان'); wrapper.setAttribute('role', 'complementary');
         const label = document.createElement('span'); label.className = 'dz-ad-label'; label.textContent = 'إعلان';
         const ins = document.createElement('ins'); ins.className = 'adsbygoogle dz-ad-placeholder'; ins.style.display = 'block'; ins.dataset.adClient = client; ins.dataset.adSlot = slot.id; ins.dataset.adFormat = slot.format || 'auto';
-        if (slot.fullWidthResponsive) ins.dataset.fullWidthResponsive = 'true'; if (slot.layoutKey) ins.dataset.adLayoutKey = slot.layoutKey;
+        if (slot.fullWidthResponsive === true) ins.dataset.fullWidthResponsive = 'true';
+        if (slot.layoutKey) ins.dataset.adLayoutKey = slot.layoutKey;
         wrapper.append(label, ins); placement.insertAdjacentElement('afterend', wrapper);
-        window.adsbygoogle = window.adsbygoogle || [];
-        try { window.adsbygoogle.push({}); } catch (error) { console.warn('AdSense initialization:', error); }
+        return wrapper;
+    }
+    function activateAd(wrapper, client) {
+        if (!wrapper || wrapper.dataset.adInitialized === 'true') return;
+        wrapper.dataset.adInitialized = 'true';
+        loadAdSenseScript(client).then(() => {
+            wrapper.classList.remove('dz-ad-container--pending');
+            window.adsbygoogle = window.adsbygoogle || [];
+            try { window.adsbygoogle.push({}); } catch (error) { console.warn('AdSense initialization:', error); }
+        });
+    }
+    function lazyActivateAd(wrapper, client) {
+        if (!('IntersectionObserver' in window)) { activateAd(wrapper, client); return; }
+        const observer = new IntersectionObserver(entries => {
+            if (!entries.some(entry => entry.isIntersecting)) return;
+            observer.disconnect();
+            activateAd(wrapper, client);
+        }, { rootMargin: '600px 0px' });
+        observer.observe(wrapper);
     }
     async function init() {
         if (!isEligible()) return; addStylesheet();
@@ -148,7 +165,8 @@ if (typeof module !== 'undefined' && module.exports) module.exports = CONFIG;
             const response = await fetch(CONFIG.getUrl(CONFIG.API.SETTINGS), { cache: 'no-store' }); if (!response.ok) throw new Error(`HTTP ${response.status}`);
             settings = await response.json(); if (settings?.ads?.enabled !== true) return;
             const client = settings?.ads?.publisherId; if (!client) return;
-            await loadAdSenseScript(client); createAd(getAdType());
+            const wrapper = createAd(getAdType());
+            lazyActivateAd(wrapper, client);
         } catch (error) { console.error('Global AdSense error:', error); }
     }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, { once: true }); else init();
