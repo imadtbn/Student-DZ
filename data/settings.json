@@ -6,17 +6,17 @@
       "homepage": {
         "id": "3143411927",
         "format": "auto",
-        "fullWidthResponsive": true
+        "fullWidthResponsive": false
       },
       "tool": {
         "id": "1760836049",
         "format": "auto",
-        "fullWidthResponsive": true
+        "fullWidthResponsive": false
       },
       "content": {
         "id": "7867079394",
-        "format": "fluid",
-        "layoutKey": "-fr+57+4a-dc+8g"
+        "format": "auto",
+        "fullWidthResponsive": false
       }
     }
   }
