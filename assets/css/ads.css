@@ -3,13 +3,15 @@
     display: block;
     width: 100%;
     max-width: 100%;
+    min-width: 0;
     margin: 1.5rem auto;
     padding: 0.65rem 0;
     box-sizing: border-box;
     text-align: center;
     clear: both;
     overflow: hidden;
-    contain: layout paint;
+    overflow: clip;
+    isolation: isolate;
 }
 
 .dz-ad-label {
@@ -27,10 +29,29 @@
     width: 100%;
     max-width: 100%;
     min-width: 0;
+    min-height: 100px;
     margin: 0 auto;
     text-align: center;
     box-sizing: border-box;
     overflow: hidden;
+}
+
+.dz-ad-container--pending .dz-ad-placeholder {
+    visibility: hidden;
+}
+
+/* AdSense injects nested elements at runtime; never let them widen the page. */
+.dz-ad-container iframe,
+.dz-ad-container ins,
+.dz-ad-container > div,
+.dz-ad-container .adsbygoogle {
+    max-width: 100% !important;
+    min-width: 0 !important;
+}
+
+.dz-ad-container iframe {
+    display: block !important;
+    margin-inline: auto !important;
 }
 
 /* Prevent the ad from inheriting restrictive widths from page cards/sections. */
@@ -38,6 +59,7 @@ main > .dz-ad-container,
 main .dz-ad-container {
     width: 100%;
     max-width: 100%;
+    min-width: 0;
 }
 
 /* Keep the ad visually separated from page controls and content. */
@@ -58,8 +80,16 @@ main .dz-ad-container {
 
 @media (max-width: 480px) {
     .dz-ad-container {
+        width: calc(100vw - 24px);
+        max-width: calc(100vw - 24px);
         margin: 1.15rem auto;
         padding: 0.5rem 0;
+    }
+
+    .dz-ad-placeholder {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-height: 90px;
     }
 
     .dz-ad-label {
