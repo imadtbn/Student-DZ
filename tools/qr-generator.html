@@ -84,8 +84,8 @@
 
         .qr-actions {
             display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 10px;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 8px;
             margin-top: 10px;
         }
 
@@ -102,12 +102,11 @@
         .qr-preview h2{font-size:1.1rem;margin:0 0 12px}
         #qrcode{max-width:100%;margin:0 auto;box-shadow:none}
         #qrcode canvas,#qrcode img{max-width:100%;height:auto}
-        .qr-actions .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:46px}
+        .qr-actions .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:46px;padding:10px 6px;font-size:clamp(.72rem,2.5vw,.95rem);white-space:nowrap;min-width:0}
         .qr-status{min-height:24px;font-size:.9rem;margin-top:12px}
-        @media (max-width: 480px) {
-            .qr-actions {
-                grid-template-columns: 1fr;
-            }
+        @media (max-width: 360px) {
+            .qr-actions { gap: 4px; }
+            .qr-actions .btn { padding: 9px 3px; font-size: .7rem; gap: 4px; }
         }
     </style>
     <!-- Favicons -->
@@ -251,9 +250,11 @@
 
             <div class="qr-actions">
                 <button class="btn btn-outline" id="downloadBtn" style="display: none;"><i
-                        class="fa-solid fa-download"></i> تحميل الصورة</button>
+                        class="fa-solid fa-download"></i> تحميل</button>
                 <button class="btn btn-outline" id="shareBtn" style="display: none;"><i
-                        class="fa-solid fa-share-nodes"></i> مشاركة الرمز</button>
+                        class="fa-solid fa-share-nodes"></i> مشاركة</button>
+                <button class="btn btn-outline" id="printBtn" style="display: none;"><i
+                        class="fa-solid fa-print"></i> طباعة</button>
             </div>
         </div>
     </main>
@@ -267,6 +268,7 @@
         const generateBtn = document.getElementById('generateBtn');
         const downloadBtn = document.getElementById('downloadBtn');
         const shareBtn = document.getElementById('shareBtn');
+        const printBtn = document.getElementById('printBtn');
         const qrText = document.getElementById('qrText');
         const qrTitle = document.getElementById('qrTitle');
         const preview = document.getElementById('qrPreview');
@@ -351,6 +353,7 @@
                 preview.hidden = false;
                 downloadBtn.style.display = 'inline-flex';
                 shareBtn.style.display = 'inline-flex';
+                printBtn.style.display = 'inline-flex';
                 status.textContent = 'تم إنشاء الرمز بنجاح.';
             } catch (error) {
                 status.textContent = 'تعذر إنشاء الرمز. تحقق من الاتصال أو اختصر النص.';
@@ -387,6 +390,28 @@
                 }
             } catch (error) {
                 if (error.name !== 'AbortError') status.textContent = 'تعذرت المشاركة. استخدم زر تحميل الصورة.';
+            }
+        });
+
+        printBtn.addEventListener('click', () => {
+            try {
+                const image = exportCanvas().toDataURL('image/png');
+                const printWindow = window.open('', '_blank', 'width=840,height=1000');
+                if (!printWindow) {
+                    status.textContent = 'المتصفح يمنع نافذة الطباعة. اسمح بالنوافذ المنبثقة ثم أعد المحاولة.';
+                    return;
+                }
+                printWindow.document.open();
+                printWindow.document.write('<!doctype html><html lang="ar" dir="rtl"><head><meta charset="UTF-8"><title>طباعة رمز QR</title><style>@page{size:auto;margin:15mm}html,body{margin:0;background:white}body{display:flex;align-items:flex-start;justify-content:center;padding:10mm;box-sizing:border-box}img{width:100%;max-width:160mm;height:auto;display:block;object-fit:contain}@media print{body{padding:0}}</style></head><body><img alt="رمز QR" src="' + image + '"></body></html>');
+                printWindow.document.close();
+                const printImage = printWindow.document.querySelector('img');
+                printImage.onload = () => {
+                    printWindow.focus();
+                    printWindow.print();
+                };
+                if (printImage.complete) printImage.onload();
+            } catch (error) {
+                status.textContent = 'تعذرت الطباعة؛ يمكنك تحميل الصورة وطباعتها.';
             }
         });
 
