@@ -1,6 +1,7 @@
 {
-    "lastUpdated": "2026-09-11",
-    "source": "google_maps_and_onou",
+    "lastUpdated": "2026-10-10",
+    "source": "existing Google Maps/ONOU collection; OpenStreetMap additions",
+    "geoVerificationNote": "Existing coordinates retained as provided and flagged for independent review; verified points have traceable OSM feature IDs.",
     "residences": [
         {
             "id": "res-talebabderrahmane-1",
@@ -9,9 +10,11 @@
             "universityId": "univ-algiers-1",
             "gender": "male",
             "coordinates": {
-                "lat": 36.7690,
-                "lng": 3.0510
-            }
+                "lat": 36.769,
+                "lng": 3.051
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ben-aknoun-femmes",
@@ -22,7 +25,9 @@
             "coordinates": {
                 "lat": 36.7562,
                 "lng": 3.0185
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bab-ezzouar-3",
@@ -33,7 +38,9 @@
             "coordinates": {
                 "lat": 36.7142,
                 "lng": 3.1856
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-baya-hocine",
@@ -43,8 +50,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.7165,
-                "lng": 3.1820
-            }
+                "lng": 3.182
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bouraoui-ammar",
@@ -54,8 +63,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.7215,
-                "lng": 3.1290
-            }
+                "lng": 3.129
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ouled-fayet-3",
@@ -66,7 +77,9 @@
             "coordinates": {
                 "lat": 36.7385,
                 "lng": 2.9431
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-dergana-filles",
@@ -76,8 +89,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.7725,
-                "lng": 3.2550
-            }
+                "lng": 3.255
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-belgaid-1",
@@ -88,7 +103,9 @@
             "coordinates": {
                 "lat": 35.7428,
                 "lng": -0.5318
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-belgaid-3",
@@ -99,7 +116,9 @@
             "coordinates": {
                 "lat": 35.7415,
                 "lng": -0.5321
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-castors-femmes",
@@ -108,9 +127,11 @@
             "universityId": "univ-usto",
             "gender": "female",
             "coordinates": {
-                "lat": 35.6980,
+                "lat": 35.698,
                 "lng": -0.6285
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ain-el-bey-1",
@@ -121,7 +142,9 @@
             "coordinates": {
                 "lat": 36.3094,
                 "lng": 6.6236
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-zouaghi-slimane",
@@ -132,7 +155,9 @@
             "coordinates": {
                 "lat": 36.3262,
                 "lng": 6.6184
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-hidhab-1",
@@ -143,7 +168,9 @@
             "coordinates": {
                 "lat": 36.2085,
                 "lng": 5.4312
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-mabouda",
@@ -152,9 +179,11 @@
             "universityId": "univ-setif-1",
             "gender": "male",
             "coordinates": {
-                "lat": 36.1950,
-                "lng": 5.3980
-            }
+                "lat": 36.195,
+                "lng": 5.398
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-soumaa-blida",
@@ -163,9 +192,11 @@
             "universityId": "univ-blida-1",
             "gender": "male",
             "coordinates": {
-                "lat": 36.5180,
-                "lng": 2.8760
-            }
+                "lat": 36.518,
+                "lng": 2.876
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-affroun-femmes",
@@ -175,8 +206,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.4675,
-                "lng": 2.6280
-            }
+                "lng": 2.628
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-sidi-amar-1",
@@ -185,9 +218,11 @@
             "universityId": "univ-annaba",
             "gender": "male",
             "coordinates": {
-                "lat": 36.8180,
-                "lng": 7.7120
-            }
+                "lat": 36.818,
+                "lng": 7.712
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-corso-boumerdes",
@@ -197,8 +232,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.7618,
-                "lng": 3.4420
-            }
+                "lng": 3.442
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-sahel-boumerdes",
@@ -207,9 +244,11 @@
             "universityId": "univ-boumerdes",
             "gender": "female",
             "coordinates": {
-                "lat": 36.7580,
-                "lng": 3.4720
-            }
+                "lat": 36.758,
+                "lng": 3.472
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-chetouane-tlemcen",
@@ -218,9 +257,11 @@
             "universityId": "univ-tlemcen",
             "gender": "male",
             "coordinates": {
-                "lat": 34.9120,
-                "lng": -1.2850
-            }
+                "lat": 34.912,
+                "lng": -1.285
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-imama-tlemcen",
@@ -229,9 +270,11 @@
             "universityId": "univ-tlemcen",
             "gender": "female",
             "coordinates": {
-                "lat": 34.8820,
-                "lng": -1.3310
-            }
+                "lat": 34.882,
+                "lng": -1.331
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-fesdis-batna",
@@ -240,11 +283,13 @@
             "universityId": "univ-batna-2",
             "gender": "male",
             "coordinates": {
-                "lat": 35.6320,
-                "lng": 6.2750
-            }
+                "lat": 35.632,
+                "lng": 6.275
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
-                {
+        {
             "id": "res-chahid-hamlaoui-batna",
             "name": "الإقامة الجامعية الشهيد حملاوي",
             "wilaya": "باتنة",
@@ -252,8 +297,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 35.5684,
-                "lng": 6.1830
-            }
+                "lng": 6.183
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tassili-ouargla",
@@ -262,9 +309,11 @@
             "universityId": "univ-ouargla",
             "gender": "male",
             "coordinates": {
-                "lat": 31.9610,
+                "lat": 31.961,
                 "lng": 5.3425
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-waha-ouargla",
@@ -274,8 +323,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 31.9582,
-                "lng": 5.3480
-            }
+                "lng": 5.348
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-chetma-biskra",
@@ -286,7 +337,9 @@
             "coordinates": {
                 "lat": 34.8512,
                 "lng": 5.7925
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-alia-biskra",
@@ -295,9 +348,11 @@
             "universityId": "univ-biskra",
             "gender": "female",
             "coordinates": {
-                "lat": 34.8690,
-                "lng": 5.7380
-            }
+                "lat": 34.869,
+                "lng": 5.738
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-pole-moussa-djelfa",
@@ -308,7 +363,9 @@
             "coordinates": {
                 "lat": 34.6932,
                 "lng": 3.2384
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-berbih-djelfa",
@@ -317,9 +374,11 @@
             "universityId": "univ-djelfa",
             "gender": "female",
             "coordinates": {
-                "lat": 34.6640,
-                "lng": 3.2610
-            }
+                "lat": 34.664,
+                "lng": 3.261
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-karman-tiaret",
@@ -328,9 +387,11 @@
             "universityId": "univ-tiaret",
             "gender": "male",
             "coordinates": {
-                "lat": 35.3950,
+                "lat": 35.395,
                 "lng": 1.3412
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-zaaroura-tiaret",
@@ -340,8 +401,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 35.3615,
-                "lng": 1.3080
-            }
+                "lng": 1.308
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-sidi-bel-abbes-sud",
@@ -352,7 +415,9 @@
             "coordinates": {
                 "lat": 35.1824,
                 "lng": -0.6385
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-kharrouba-mostaganem",
@@ -361,9 +426,11 @@
             "universityId": "univ-mostaganem",
             "gender": "female",
             "coordinates": {
-                "lat": 35.9620,
-                "lng": 0.1180
-            }
+                "lat": 35.962,
+                "lng": 0.118
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tassoust-jijel",
@@ -372,9 +439,11 @@
             "universityId": "univ-jijel",
             "gender": "female",
             "coordinates": {
-                "lat": 36.7580,
-                "lng": 5.8650
-            }
+                "lat": 36.758,
+                "lng": 5.865
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ichbilia-msila",
@@ -384,8 +453,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 35.7145,
-                "lng": 4.5290
-            }
+                "lng": 4.529
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-adrar-pole",
@@ -394,11 +465,12 @@
             "universityId": "univ-adrar",
             "gender": "male",
             "coordinates": {
-                "lat": 27.8820,
-                "lng": -0.2740
-            }
+                "lat": 27.882,
+                "lng": -0.274
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
-        
         {
             "id": "res-19-mai-1956-bab-ezzouar",
             "name": "الإقامة الجامعية 19 ماي 1956",
@@ -408,7 +480,9 @@
             "coordinates": {
                 "lat": 36.7113,
                 "lng": 3.1764
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-cpa-ben-aknoun",
@@ -419,7 +493,9 @@
             "coordinates": {
                 "lat": 36.7328,
                 "lng": 3.0371
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-dely-ibrahim-1",
@@ -428,9 +504,11 @@
             "universityId": "univ-algiers-3",
             "gender": "female",
             "coordinates": {
-                "lat": 36.7540,
+                "lat": 36.754,
                 "lng": 2.9852
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-garidi-kouba",
@@ -441,7 +519,9 @@
             "coordinates": {
                 "lat": 36.7212,
                 "lng": 3.0725
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-boudouaou-filles",
@@ -452,7 +532,9 @@
             "coordinates": {
                 "lat": 36.7281,
                 "lng": 3.4115
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-cpa-oran-el-mnaouer",
@@ -463,7 +545,9 @@
             "coordinates": {
                 "lat": 35.6965,
                 "lng": -0.6315
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-canastel-oran",
@@ -472,9 +556,11 @@
             "universityId": "univ-usto",
             "gender": "female",
             "coordinates": {
-                "lat": 35.7270,
-                "lng": -0.5840
-            }
+                "lat": 35.727,
+                "lng": -0.584
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-sidi-achour-1",
@@ -485,7 +571,9 @@
             "coordinates": {
                 "lat": 36.8741,
                 "lng": 7.7392
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-sebaat-el-harrach",
@@ -494,9 +582,11 @@
             "universityId": "univ-algiers-1",
             "gender": "male",
             "coordinates": {
-                "lat": 36.7180,
+                "lat": 36.718,
                 "lng": 3.1415
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-hadaiek-1-skikda",
@@ -507,7 +597,9 @@
             "coordinates": {
                 "lat": 36.8375,
                 "lng": 6.9022
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-hadaiek-5-skikda",
@@ -516,9 +608,11 @@
             "universityId": "univ-skikda",
             "gender": "female",
             "coordinates": {
-                "lat": 36.8310,
+                "lat": 36.831,
                 "lng": 6.8995
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bouchareb-tahar-laghouat",
@@ -528,8 +622,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 33.7915,
-                "lng": 2.8540
-            }
+                "lng": 2.854
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-oasis-laghouat",
@@ -540,7 +636,9 @@
             "coordinates": {
                 "lat": 33.7942,
                 "lng": 2.8585
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-mamounia-mascara",
@@ -549,9 +647,11 @@
             "universityId": "univ-mascara",
             "gender": "male",
             "coordinates": {
-                "lat": 35.4120,
-                "lng": 0.1580
-            }
+                "lat": 35.412,
+                "lng": 0.158
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-sidi-said-mascara",
@@ -562,7 +662,9 @@
             "coordinates": {
                 "lat": 35.3985,
                 "lng": 0.1345
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-chahid-hamma-lakhdar-el-oued",
@@ -571,9 +673,11 @@
             "universityId": "univ-el-oued",
             "gender": "male",
             "coordinates": {
-                "lat": 33.3640,
-                "lng": 6.8420
-            }
+                "lat": 33.364,
+                "lng": 6.842
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-echat-el-oued",
@@ -584,7 +688,9 @@
             "coordinates": {
                 "lat": 33.3712,
                 "lng": 6.8535
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-heliopolis-guelma",
@@ -594,8 +700,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.5025,
-                "lng": 7.4410
-            }
+                "lng": 7.441
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-19-mai-guelma",
@@ -604,9 +712,11 @@
             "universityId": "univ-guelma",
             "gender": "female",
             "coordinates": {
-                "lat": 36.4580,
+                "lat": 36.458,
                 "lng": 7.4265
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-anasser-bba",
@@ -616,8 +726,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.0682,
-                "lng": 4.7920
-            }
+                "lng": 4.792
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ouled-braham-bba",
@@ -627,8 +739,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.0745,
-                "lng": 4.7560
-            }
+                "lng": 4.756
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ouled-fares-chlef-1",
@@ -638,8 +752,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.2315,
-                "lng": 1.2820
-            }
+                "lng": 1.282
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ouled-fares-chlef-2",
@@ -648,9 +764,11 @@
             "universityId": "univ-chlef",
             "gender": "female",
             "coordinates": {
-                "lat": 36.2340,
+                "lat": 36.234,
                 "lng": 1.2875
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-kseur-bejaia",
@@ -659,9 +777,11 @@
             "universityId": "univ-bejaia",
             "gender": "male",
             "coordinates": {
-                "lat": 36.6850,
-                "lng": 4.8580
-            }
+                "lat": 36.685,
+                "lng": 4.858
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-oued-aissi-tizi-ouzou",
@@ -670,11 +790,13 @@
             "universityId": "univ-tizi-ouzou",
             "gender": "female",
             "coordinates": {
-                "lat": 36.6970,
-                "lng": 4.1220
-            }
+                "lat": 36.697,
+                "lng": 4.122
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
-                {
+        {
             "id": "res-garidi-2-kouba",
             "name": "الإقامة الجامعية قاريدي 2 إناث",
             "wilaya": "الجزائر",
@@ -683,7 +805,9 @@
             "coordinates": {
                 "lat": 36.7235,
                 "lng": 3.0762
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-alia-bab-ezzouar",
@@ -694,7 +818,9 @@
             "coordinates": {
                 "lat": 36.7198,
                 "lng": 3.1675
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-rostomia-dely-ibrahim",
@@ -705,7 +831,9 @@
             "coordinates": {
                 "lat": 36.7582,
                 "lng": 2.9921
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ouled-fayet-2",
@@ -714,9 +842,11 @@
             "universityId": "univ-algiers-3",
             "gender": "female",
             "coordinates": {
-                "lat": 36.7360,
+                "lat": 36.736,
                 "lng": 2.9485
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bousmail-tipaza",
@@ -726,8 +856,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.6385,
-                "lng": 2.6950
-            }
+                "lng": 2.695
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-kolea-1",
@@ -736,9 +868,11 @@
             "universityId": "univ-pole-kolea",
             "gender": "female",
             "coordinates": {
-                "lat": 36.6270,
+                "lat": 36.627,
                 "lng": 2.7725
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-kolea-2",
@@ -748,8 +882,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.6292,
-                "lng": 2.7690
-            }
+                "lng": 2.769
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-souk-ahras-tagtagia",
@@ -758,9 +894,11 @@
             "universityId": "univ-souk-ahras",
             "gender": "female",
             "coordinates": {
-                "lat": 36.2750,
-                "lng": 7.9420
-            }
+                "lat": 36.275,
+                "lng": 7.942
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-moubarek-el-mili-mila",
@@ -769,9 +907,11 @@
             "universityId": "univ-mila",
             "gender": "male",
             "coordinates": {
-                "lat": 36.4420,
-                "lng": 6.2580
-            }
+                "lat": 36.442,
+                "lng": 6.258
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ain-el-bey-femmes-constantine",
@@ -781,8 +921,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.3125,
-                "lng": 6.6150
-            }
+                "lng": 6.615
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-medea-ain-dhab",
@@ -791,9 +933,11 @@
             "universityId": "univ-medea",
             "gender": "male",
             "coordinates": {
-                "lat": 36.2580,
+                "lat": 36.258,
                 "lng": 2.7645
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-medea-pole-femmes",
@@ -802,9 +946,11 @@
             "universityId": "univ-medea",
             "gender": "female",
             "coordinates": {
-                "lat": 36.2810,
-                "lng": 2.7490
-            }
+                "lat": 36.281,
+                "lng": 2.749
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-khemis-miliana-male",
@@ -814,8 +960,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.2625,
-                "lng": 2.2280
-            }
+                "lng": 2.228
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-khemis-miliana-females",
@@ -824,9 +972,11 @@
             "universityId": "univ-khemis-miliana",
             "gender": "female",
             "coordinates": {
-                "lat": 36.2590,
+                "lat": 36.259,
                 "lng": 2.2155
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-saida-ennasr",
@@ -835,9 +985,11 @@
             "universityId": "univ-saida",
             "gender": "male",
             "coordinates": {
-                "lat": 34.8250,
-                "lng": 0.1420
-            }
+                "lat": 34.825,
+                "lng": 0.142
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-saida-femmes",
@@ -846,9 +998,11 @@
             "universityId": "univ-saida",
             "gender": "female",
             "coordinates": {
-                "lat": 34.8380,
-                "lng": 0.1610
-            }
+                "lat": 34.838,
+                "lng": 0.161
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bechar-femmes",
@@ -857,9 +1011,11 @@
             "universityId": "univ-bechar",
             "gender": "female",
             "coordinates": {
-                "lat": 31.6350,
-                "lng": -2.2140
-            }
+                "lat": 31.635,
+                "lng": -2.214
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bechar-male",
@@ -869,8 +1025,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 31.6285,
-                "lng": -2.2210
-            }
+                "lng": -2.221
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ghardaia-noumerat",
@@ -879,9 +1037,11 @@
             "universityId": "univ-ghardaia",
             "gender": "female",
             "coordinates": {
-                "lat": 32.4010,
-                "lng": 3.7890
-            }
+                "lat": 32.401,
+                "lng": 3.789
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ghardaia-male",
@@ -890,9 +1050,11 @@
             "universityId": "univ-ghardaia",
             "gender": "male",
             "coordinates": {
-                "lat": 32.4080,
+                "lat": 32.408,
                 "lng": 3.7745
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tebessa-chahid-chebbi",
@@ -901,9 +1063,11 @@
             "universityId": "univ-tebessa",
             "gender": "male",
             "coordinates": {
-                "lat": 35.4190,
+                "lat": 35.419,
                 "lng": 8.1055
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tebessa-el-kams",
@@ -912,9 +1076,11 @@
             "universityId": "univ-tebessa",
             "gender": "female",
             "coordinates": {
-                "lat": 35.4320,
-                "lng": 8.1180
-            }
+                "lat": 35.432,
+                "lng": 8.118
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tamanrasset-pole",
@@ -923,9 +1089,11 @@
             "universityId": "univ-tamanrasset",
             "gender": "female",
             "coordinates": {
-                "lat": 22.8120,
-                "lng": 5.5180
-            }
+                "lat": 22.812,
+                "lng": 5.518
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tamanrasset-male",
@@ -935,10 +1103,11 @@
             "gender": "male",
             "coordinates": {
                 "lat": 22.8055,
-                "lng": 5.5240
-            }
+                "lng": 5.524
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
-        
         {
             "id": "res-ain-temouchent-male",
             "name": "الإقامة الجامعية بلحاج بوشعيب (ذكور)",
@@ -948,7 +1117,9 @@
             "coordinates": {
                 "lat": 35.3092,
                 "lng": -1.1345
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ain-temouchent-female",
@@ -958,8 +1129,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 35.3045,
-                "lng": -1.1390
-            }
+                "lng": -1.139
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-relizane-bourmadia-male",
@@ -970,7 +1143,9 @@
             "coordinates": {
                 "lat": 35.7288,
                 "lng": 0.5375
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-relizane-bourmadia-female",
@@ -980,8 +1155,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 35.7312,
-                "lng": 0.5410
-            }
+                "lng": 0.541
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-tarf-el-kous-male",
@@ -991,8 +1168,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.7585,
-                "lng": 8.2970
-            }
+                "lng": 8.297
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-tarf-female",
@@ -1001,9 +1180,11 @@
             "universityId": "univ-el-tarf",
             "gender": "female",
             "coordinates": {
-                "lat": 36.7620,
+                "lat": 36.762,
                 "lng": 8.3045
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-khenchela-abane-ramdane",
@@ -1013,8 +1194,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 35.4415,
-                "lng": 7.1520
-            }
+                "lng": 7.152
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-khenchela-femmes",
@@ -1023,9 +1206,11 @@
             "universityId": "univ-khenchela",
             "gender": "female",
             "coordinates": {
-                "lat": 35.4480,
+                "lat": 35.448,
                 "lng": 7.1395
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-oum-el-bouaghi-male",
@@ -1034,9 +1219,11 @@
             "universityId": "univ-oeb",
             "gender": "male",
             "coordinates": {
-                "lat": 35.8820,
+                "lat": 35.882,
                 "lng": 7.1065
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ain-beida-female",
@@ -1046,8 +1233,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 35.8015,
-                "lng": 7.3780
-            }
+                "lng": 7.378
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bouira-male",
@@ -1057,8 +1246,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.3685,
-                "lng": 3.8820
-            }
+                "lng": 3.882
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bouira-female",
@@ -1067,9 +1258,11 @@
             "universityId": "univ-bouira",
             "gender": "female",
             "coordinates": {
-                "lat": 36.3740,
+                "lat": 36.374,
                 "lng": 3.8955
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-bayadh-male",
@@ -1079,8 +1272,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 33.6935,
-                "lng": 1.0260
-            }
+                "lng": 1.026
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-bayadh-female",
@@ -1089,9 +1284,11 @@
             "universityId": "univ-el-bayadh",
             "gender": "female",
             "coordinates": {
-                "lat": 33.6870,
+                "lat": 33.687,
                 "lng": 1.0345
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-naama-mecheria-male",
@@ -1100,9 +1297,11 @@
             "universityId": "univ-naama",
             "gender": "male",
             "coordinates": {
-                "lat": 33.5410,
+                "lat": 33.541,
                 "lng": -0.2865
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-naama-female",
@@ -1111,9 +1310,11 @@
             "universityId": "univ-naama",
             "gender": "female",
             "coordinates": {
-                "lat": 33.2680,
-                "lng": -0.3120
-            }
+                "lat": 33.268,
+                "lng": -0.312
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tissemsilt-male",
@@ -1122,9 +1323,11 @@
             "universityId": "univ-tissemsilt",
             "gender": "male",
             "coordinates": {
-                "lat": 35.6120,
-                "lng": 1.8020
-            }
+                "lat": 35.612,
+                "lng": 1.802
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tissemsilt-female",
@@ -1135,7 +1338,9 @@
             "coordinates": {
                 "lat": 35.6085,
                 "lng": 1.8115
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-chlef-hay-essalam-female",
@@ -1146,7 +1351,9 @@
             "coordinates": {
                 "lat": 36.1785,
                 "lng": 1.3412
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tindouf-male",
@@ -1155,9 +1362,11 @@
             "universityId": "univ-tindouf",
             "gender": "male",
             "coordinates": {
-                "lat": 27.6710,
-                "lng": -8.1340
-            }
+                "lat": 27.671,
+                "lng": -8.134
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tindouf-female",
@@ -1167,8 +1376,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 27.6745,
-                "lng": -8.1290
-            }
+                "lng": -8.129
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-illizi-mixed",
@@ -1177,9 +1388,11 @@
             "universityId": "univ-illizi",
             "gender": "female",
             "coordinates": {
-                "lat": 26.5020,
+                "lat": 26.502,
                 "lng": 8.4815
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-timimoun-pole",
@@ -1189,8 +1402,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 29.2485,
-                "lng": 0.2310
-            }
+                "lng": 0.231
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-touggourt-female",
@@ -1199,9 +1414,11 @@
             "universityId": "univ-ouargla",
             "gender": "female",
             "coordinates": {
-                "lat": 33.1120,
-                "lng": 6.0740
-            }
+                "lat": 33.112,
+                "lng": 6.074
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-meghaier-male",
@@ -1210,11 +1427,12 @@
             "universityId": "univ-el-oued",
             "gender": "male",
             "coordinates": {
-                "lat": 33.9480,
-                "lng": 5.9230
-            }
+                "lat": 33.948,
+                "lng": 5.923
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
-        
         {
             "id": "res-belfort-el-harrach",
             "name": "الإقامة الجامعية بلفور (الحراش)",
@@ -1224,7 +1442,9 @@
             "coordinates": {
                 "lat": 36.7245,
                 "lng": 3.1368
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-cuisinier-algiers",
@@ -1235,7 +1455,9 @@
             "coordinates": {
                 "lat": 36.7665,
                 "lng": 3.0482
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ouled-fayet-1",
@@ -1246,7 +1468,9 @@
             "coordinates": {
                 "lat": 36.7348,
                 "lng": 2.9515
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-attaf-male",
@@ -1255,9 +1479,11 @@
             "universityId": "univ-khemis-miliana",
             "gender": "male",
             "coordinates": {
-                "lat": 36.2240,
+                "lat": 36.224,
                 "lng": 1.6715
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-sidi-achour-2",
@@ -1267,8 +1493,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.8715,
-                "lng": 7.7420
-            }
+                "lng": 7.742
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-bouni-female",
@@ -1279,7 +1507,9 @@
             "coordinates": {
                 "lat": 36.8432,
                 "lng": 7.7118
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ain-el-bey-polytech",
@@ -1288,9 +1518,11 @@
             "universityId": "univ-constantine-3",
             "gender": "male",
             "coordinates": {
-                "lat": 36.3150,
-                "lng": 6.6110
-            }
+                "lat": 36.315,
+                "lng": 6.611
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-nahas-enberek-constantine",
@@ -1299,9 +1531,11 @@
             "universityId": "univ-constantine-1",
             "gender": "male",
             "coordinates": {
-                "lat": 36.3480,
+                "lat": 36.348,
                 "lng": 6.6215
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bouskra-skikda",
@@ -1311,8 +1545,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.8612,
-                "lng": 6.9140
-            }
+                "lng": 6.914
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-jijel-jijel-centre",
@@ -1321,9 +1557,11 @@
             "universityId": "univ-jijel",
             "gender": "male",
             "coordinates": {
-                "lat": 36.8140,
+                "lat": 36.814,
                 "lng": 5.7665
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-oued-ghir-bejaia",
@@ -1332,9 +1570,11 @@
             "universityId": "univ-bejaia",
             "gender": "female",
             "coordinates": {
-                "lat": 36.7150,
-                "lng": 4.9810
-            }
+                "lat": 36.715,
+                "lng": 4.981
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-amizour-bejaia",
@@ -1344,8 +1584,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.6425,
-                "lng": 4.9080
-            }
+                "lng": 4.908
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-boudouaou-male",
@@ -1354,9 +1596,11 @@
             "universityId": "univ-boumerdes",
             "gender": "male",
             "coordinates": {
-                "lat": 36.7310,
+                "lat": 36.731,
                 "lng": 3.4085
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-berchiche-el-kseur",
@@ -1365,9 +1609,11 @@
             "universityId": "univ-bejaia",
             "gender": "female",
             "coordinates": {
-                "lat": 36.6890,
-                "lng": 4.8620
-            }
+                "lat": 36.689,
+                "lng": 4.862
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-arrouch-skikda",
@@ -1376,9 +1622,11 @@
             "universityId": "univ-skikda",
             "gender": "female",
             "coordinates": {
-                "lat": 36.6540,
-                "lng": 6.8290
-            }
+                "lat": 36.654,
+                "lng": 6.829
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bousaada-male",
@@ -1387,9 +1635,11 @@
             "universityId": "univ-msila",
             "gender": "male",
             "coordinates": {
-                "lat": 35.2980,
+                "lat": 35.298,
                 "lng": 4.2015
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bousaada-female",
@@ -1399,8 +1649,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 35.3012,
-                "lng": 4.1980
-            }
+                "lng": 4.198
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-barika-batna",
@@ -1409,9 +1661,11 @@
             "universityId": "univ-batna-1",
             "gender": "male",
             "coordinates": {
-                "lat": 35.3420,
-                "lng": 5.3560
-            }
+                "lat": 35.342,
+                "lng": 5.356
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-maghnia-female",
@@ -1420,9 +1674,11 @@
             "universityId": "univ-tlemcen",
             "gender": "female",
             "coordinates": {
-                "lat": 34.8540,
+                "lat": 34.854,
                 "lng": -1.7325
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-maghnia-male",
@@ -1432,8 +1688,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 34.8585,
-                "lng": -1.7280
-            }
+                "lng": -1.728
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-in-salah-mixed",
@@ -1443,8 +1701,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 27.2045,
-                "lng": 2.4780
-            }
+                "lng": 2.478
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-beni-abbes-pole",
@@ -1453,9 +1713,11 @@
             "universityId": "univ-bechar",
             "gender": "male",
             "coordinates": {
-                "lat": 30.1280,
-                "lng": -2.1720
-            }
+                "lat": 30.128,
+                "lng": -2.172
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-djanet-annex",
@@ -1464,9 +1726,11 @@
             "universityId": "univ-illizi",
             "gender": "male",
             "coordinates": {
-                "lat": 24.5510,
+                "lat": 24.551,
                 "lng": 9.4795
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bordj-badji-mokhtar-annex",
@@ -1475,9 +1739,11 @@
             "universityId": "univ-adrar",
             "gender": "male",
             "coordinates": {
-                "lat": 21.3280,
-                "lng": 0.9480
-            }
+                "lat": 21.328,
+                "lng": 0.948
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ouled-djellal-mixed",
@@ -1486,11 +1752,12 @@
             "universityId": "univ-biskra",
             "gender": "female",
             "coordinates": {
-                "lat": 34.4260,
+                "lat": 34.426,
                 "lng": 5.0685
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
-        
         {
             "id": "res-boukhalfa-tizi-ouzou",
             "name": "الإقامة الجامعية بوخالفة (ذكور)",
@@ -1499,8 +1766,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.7335,
-                "lng": 4.0150
-            }
+                "lng": 4.015
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-reghaia-femmes",
@@ -1509,9 +1778,11 @@
             "universityId": "univ-algiers-1",
             "gender": "female",
             "coordinates": {
-                "lat": 36.7380,
+                "lat": 36.738,
                 "lng": 3.3285
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ouled-fayet-girls-4",
@@ -1520,9 +1791,11 @@
             "universityId": "univ-algiers-3",
             "gender": "female",
             "coordinates": {
-                "lat": 36.7410,
+                "lat": 36.741,
                 "lng": 2.9405
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-cpa-el-harrach",
@@ -1533,7 +1806,9 @@
             "coordinates": {
                 "lat": 36.7208,
                 "lng": 3.1315
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-souidania-male",
@@ -1543,8 +1818,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.7025,
-                "lng": 2.9120
-            }
+                "lng": 2.912
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-belgaid-4-femmes",
@@ -1553,9 +1830,11 @@
             "universityId": "univ-oran-2",
             "gender": "female",
             "coordinates": {
-                "lat": 35.7390,
+                "lat": 35.739,
                 "lng": -0.5365
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-es-senia-male",
@@ -1564,9 +1843,11 @@
             "universityId": "univ-oran-1",
             "gender": "male",
             "coordinates": {
-                "lat": 35.6550,
+                "lat": 35.655,
                 "lng": -0.6275
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-igueli-bejaia",
@@ -1575,9 +1856,11 @@
             "universityId": "univ-bejaia",
             "gender": "male",
             "coordinates": {
-                "lat": 36.7460,
+                "lat": 36.746,
                 "lng": 5.0625
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-kseur-girls-2",
@@ -1587,8 +1870,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.6872,
-                "lng": 4.8540
-            }
+                "lng": 4.854
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-berchiche-male",
@@ -1599,7 +1884,9 @@
             "coordinates": {
                 "lat": 36.6915,
                 "lng": 4.8665
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-hidhab-2-femmes",
@@ -1609,8 +1896,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.2115,
-                "lng": 5.4350
-            }
+                "lng": 5.435
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-hidhab-3-male",
@@ -1619,9 +1908,11 @@
             "universityId": "univ-setif-1",
             "gender": "male",
             "coordinates": {
-                "lat": 36.2140,
+                "lat": 36.214,
                 "lng": 5.4395
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-bez-male-setif",
@@ -1630,9 +1921,11 @@
             "universityId": "univ-setif-1",
             "gender": "male",
             "coordinates": {
-                "lat": 36.1820,
-                "lng": 5.3520
-            }
+                "lat": 36.182,
+                "lng": 5.352
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ain-el-bey-6-femmes",
@@ -1642,8 +1935,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.3195,
-                "lng": 6.6190
-            }
+                "lng": 6.619
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-berrhal-annaba",
@@ -1652,9 +1947,11 @@
             "universityId": "univ-annaba",
             "gender": "female",
             "coordinates": {
-                "lat": 36.8340,
-                "lng": 7.4580
-            }
+                "lat": 36.834,
+                "lng": 7.458
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-affroun-male",
@@ -1664,8 +1961,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.4695,
-                "lng": 2.6330
-            }
+                "lng": 2.633
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-batna-centre-girls",
@@ -1674,9 +1973,11 @@
             "universityId": "univ-batna-1",
             "gender": "female",
             "coordinates": {
-                "lat": 35.5530,
+                "lat": 35.553,
                 "lng": 6.1685
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-fesdis-female",
@@ -1685,9 +1986,11 @@
             "universityId": "univ-batna-2",
             "gender": "female",
             "coordinates": {
-                "lat": 35.6350,
+                "lat": 35.635,
                 "lng": 6.2795
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-chelghoum-laid",
@@ -1696,9 +1999,11 @@
             "universityId": "univ-mila",
             "gender": "female",
             "coordinates": {
-                "lat": 36.1620,
-                "lng": 6.1710
-            }
+                "lat": 36.162,
+                "lng": 6.171
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-hamma-khenchela",
@@ -1707,9 +2012,11 @@
             "universityId": "univ-khenchela",
             "gender": "male",
             "coordinates": {
-                "lat": 35.4610,
-                "lng": 7.0980
-            }
+                "lat": 35.461,
+                "lng": 7.098
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-sedrata-souk-ahras",
@@ -1718,9 +2025,11 @@
             "universityId": "univ-souk-ahras",
             "gender": "male",
             "coordinates": {
-                "lat": 36.1280,
-                "lng": 7.5340
-            }
+                "lat": 36.128,
+                "lng": 7.534
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-mostaganem-salamandre",
@@ -1729,9 +2038,11 @@
             "universityId": "univ-mostaganem",
             "gender": "male",
             "coordinates": {
-                "lat": 35.9180,
+                "lat": 35.918,
                 "lng": 0.0715
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-kharrouba-2-mostaganem",
@@ -1741,8 +2052,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 35.9645,
-                "lng": 0.1220
-            }
+                "lng": 0.122
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-menia-centre",
@@ -1751,9 +2064,11 @@
             "universityId": "univ-ghardaia",
             "gender": "male",
             "coordinates": {
-                "lat": 30.5840,
-                "lng": 2.8790
-            }
+                "lat": 30.584,
+                "lng": 2.879
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-in-guezzam-annex",
@@ -1762,11 +2077,13 @@
             "universityId": "univ-tamanrasset",
             "gender": "male",
             "coordinates": {
-                "lat": 19.5710,
-                "lng": 5.7690
-            }
+                "lat": 19.571,
+                "lng": 5.769
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
-                {
+        {
             "id": "res-ain-naadja-algiers",
             "name": "الإقامة الجامعية عين النعجة (ذكور)",
             "wilaya": "الجزائر",
@@ -1775,7 +2092,9 @@
             "coordinates": {
                 "lat": 36.7112,
                 "lng": 3.0845
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bordj-el-bahri",
@@ -1785,8 +2104,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.7925,
-                "lng": 3.2380
-            }
+                "lng": 3.238
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bouzar-kouba-ens",
@@ -1797,7 +2118,9 @@
             "coordinates": {
                 "lat": 36.7865,
                 "lng": 3.0182
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bousmail-female-tipaza",
@@ -1806,9 +2129,11 @@
             "universityId": "univ-tipaza",
             "gender": "female",
             "coordinates": {
-                "lat": 36.6410,
+                "lat": 36.641,
                 "lng": 2.7015
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-larbaa-blida",
@@ -1817,9 +2142,11 @@
             "universityId": "univ-blida-1",
             "gender": "male",
             "coordinates": {
-                "lat": 36.5680,
+                "lat": 36.568,
                 "lng": 3.1495
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-khroub-2-male",
@@ -1828,9 +2155,11 @@
             "universityId": "univ-constantine-1",
             "gender": "male",
             "coordinates": {
-                "lat": 36.2610,
+                "lat": 36.261,
                 "lng": 6.6875
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-mentouri-centre-femmes",
@@ -1841,7 +2170,9 @@
             "coordinates": {
                 "lat": 36.3535,
                 "lng": 6.6275
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ain-el-turck-oran",
@@ -1851,8 +2182,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 35.7485,
-                "lng": -0.7490
-            }
+                "lng": -0.749
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-maraval-oran-femmes",
@@ -1861,9 +2194,11 @@
             "universityId": "univ-oran-2",
             "gender": "female",
             "coordinates": {
-                "lat": 35.6820,
-                "lng": -0.6550
-            }
+                "lat": 35.682,
+                "lng": -0.655
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tlemcen-pole-imama-male",
@@ -1873,8 +2208,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 34.8845,
-                "lng": -1.3340
-            }
+                "lng": -1.334
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tlemcen-bel-horizon",
@@ -1885,7 +2222,9 @@
             "coordinates": {
                 "lat": 34.8965,
                 "lng": -1.3125
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-sidi-bel-abbes-nord",
@@ -1895,8 +2234,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 35.2075,
-                "lng": -0.6280
-            }
+                "lng": -0.628
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-telagh-sba",
@@ -1905,9 +2246,11 @@
             "universityId": "univ-sba",
             "gender": "male",
             "coordinates": {
-                "lat": 34.7830,
-                "lng": -0.5720
-            }
+                "lat": 34.783,
+                "lng": -0.572
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-sour-el-ghozlane",
@@ -1917,8 +2260,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.1485,
-                "lng": 3.6890
-            }
+                "lng": 3.689
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-mchedallah-bouira",
@@ -1927,9 +2272,11 @@
             "universityId": "univ-bouira",
             "gender": "male",
             "coordinates": {
-                "lat": 36.3760,
-                "lng": 4.2750
-            }
+                "lat": 36.376,
+                "lng": 4.275
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-khroub-annaba-pont-blanc",
@@ -1938,9 +2285,11 @@
             "universityId": "univ-annaba",
             "gender": "female",
             "coordinates": {
-                "lat": 36.8920,
+                "lat": 36.892,
                 "lng": 7.7495
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-oued-forcha-annaba",
@@ -1949,9 +2298,11 @@
             "universityId": "univ-annaba",
             "gender": "male",
             "coordinates": {
-                "lat": 36.9110,
+                "lat": 36.911,
                 "lng": 7.7315
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bouhadid-annaba",
@@ -1961,8 +2312,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.8855,
-                "lng": 7.7250
-            }
+                "lng": 7.725
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-aflou-laghouat-male",
@@ -1971,9 +2324,11 @@
             "universityId": "univ-laghouat",
             "gender": "male",
             "coordinates": {
-                "lat": 34.1180,
-                "lng": 2.0950
-            }
+                "lat": 34.118,
+                "lng": 2.095
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-aflou-laghouat-female",
@@ -1983,8 +2338,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 34.1225,
-                "lng": 2.1020
-            }
+                "lng": 2.102
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ain-el-melh-msila",
@@ -1993,9 +2350,11 @@
             "universityId": "univ-msila",
             "gender": "female",
             "coordinates": {
-                "lat": 34.9810,
-                "lng": 4.1620
-            }
+                "lat": 34.981,
+                "lng": 4.162
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-magra-msila",
@@ -2005,8 +2364,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 35.6025,
-                "lng": 5.0740
-            }
+                "lng": 5.074
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-hassi-messaoud-pole",
@@ -2015,9 +2376,11 @@
             "universityId": "univ-ouargla",
             "gender": "male",
             "coordinates": {
-                "lat": 31.6910,
-                "lng": 6.0590
-            }
+                "lat": 31.691,
+                "lng": 6.059
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-djamaa-female",
@@ -2027,8 +2390,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 33.5385,
-                "lng": 5.9920
-            }
+                "lng": 5.992
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ain-oussera-djelfa",
@@ -2037,286 +2402,13 @@
             "universityId": "univ-djelfa",
             "gender": "female",
             "coordinates": {
-                "lat": 35.4520,
+                "lat": 35.452,
                 "lng": 2.9125
-            }
-        },
-                {
-            "id": "res-ain-naadja-algiers",
-            "name": "الإقامة الجامعية عين النعجة (ذكور)",
-            "wilaya": "الجزائر",
-            "universityId": "univ-algiers-1",
-            "gender": "male",
-            "coordinates": {
-                "lat": 36.7112,
-                "lng": 3.0845
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
-            "id": "res-bordj-el-bahri",
-            "name": "الإقامة الجامعية برج البحري (إناث)",
-            "wilaya": "الجزائر",
-            "universityId": "univ-usthb",
-            "gender": "female",
-            "coordinates": {
-                "lat": 36.7925,
-                "lng": 3.2380
-            }
-        },
-        {
-            "id": "res-bouzar-kouba-ens",
-            "name": "الإقامة الجامعية بوزريعة (إناث)",
-            "wilaya": "الجزائر",
-            "universityId": "univ-algiers-2",
-            "gender": "female",
-            "coordinates": {
-                "lat": 36.7865,
-                "lng": 3.0182
-            }
-        },
-        {
-            "id": "res-bousmail-female-tipaza",
-            "name": "الإقامة الجامعية بو إسماعيل (إناث)",
-            "wilaya": "تيبازة",
-            "universityId": "univ-tipaza",
-            "gender": "female",
-            "coordinates": {
-                "lat": 36.6410,
-                "lng": 2.7015
-            }
-        },
-        {
-            "id": "res-larbaa-blida",
-            "name": "الإقامة الجامعية الأربعاء",
-            "wilaya": "البليدة",
-            "universityId": "univ-blida-1",
-            "gender": "male",
-            "coordinates": {
-                "lat": 36.5680,
-                "lng": 3.1495
-            }
-        },
-        {
-            "id": "res-el-khroub-2-male",
-            "name": "الإقامة الجامعية الخروب 2 (ذكور)",
-            "wilaya": "قسنطينة",
-            "universityId": "univ-constantine-1",
-            "gender": "male",
-            "coordinates": {
-                "lat": 36.2610,
-                "lng": 6.6875
-            }
-        },
-        {
-            "id": "res-mentouri-centre-femmes",
-            "name": "الإقامة الجامعية الأخوات بن تركي (منتوري إناث)",
-            "wilaya": "قسنطينة",
-            "universityId": "univ-constantine-1",
-            "gender": "female",
-            "coordinates": {
-                "lat": 36.3535,
-                "lng": 6.6275
-            }
-        },
-        {
-            "id": "res-ain-el-turck-oran",
-            "name": "الإقامة الجامعية عين الترك (ذكور)",
-            "wilaya": "وهران",
-            "universityId": "univ-oran-1",
-            "gender": "male",
-            "coordinates": {
-                "lat": 35.7485,
-                "lng": -0.7490
-            }
-        },
-        {
-            "id": "res-maraval-oran-femmes",
-            "name": "الإقامة الجامعية مرافال (إناث)",
-            "wilaya": "وهران",
-            "universityId": "univ-oran-2",
-            "gender": "female",
-            "coordinates": {
-                "lat": 35.6820,
-                "lng": -0.6550
-            }
-        },
-        {
-            "id": "res-tlemcen-pole-imama-male",
-            "name": "الإقامة الجامعية إمامة (ذكور)",
-            "wilaya": "تلمسان",
-            "universityId": "univ-tlemcen",
-            "gender": "male",
-            "coordinates": {
-                "lat": 34.8845,
-                "lng": -1.3340
-            }
-        },
-        {
-            "id": "res-tlemcen-bel-horizon",
-            "name": "الإقامة الجامعية بيل أوريزون (إناث)",
-            "wilaya": "تلمسان",
-            "universityId": "univ-tlemcen",
-            "gender": "female",
-            "coordinates": {
-                "lat": 34.8965,
-                "lng": -1.3125
-            }
-        },
-        {
-            "id": "res-sidi-bel-abbes-nord",
-            "name": "الإقامة الجامعية سيدي بلعباس شمال (إناث)",
-            "wilaya": "سيدي بلعباس",
-            "universityId": "univ-sba",
-            "gender": "female",
-            "coordinates": {
-                "lat": 35.2075,
-                "lng": -0.6280
-            }
-        },
-        {
-            "id": "res-telagh-sba",
-            "name": "الإقامة الجامعية تلاغ",
-            "wilaya": "سيدي بلعباس",
-            "universityId": "univ-sba",
-            "gender": "male",
-            "coordinates": {
-                "lat": 34.7830,
-                "lng": -0.5720
-            }
-        },
-        {
-            "id": "res-sour-el-ghozlane",
-            "name": "الإقامة الجامعية سور الغزلان",
-            "wilaya": "البويرة",
-            "universityId": "univ-bouira",
-            "gender": "female",
-            "coordinates": {
-                "lat": 36.1485,
-                "lng": 3.6890
-            }
-        },
-        {
-            "id": "res-mchedallah-bouira",
-            "name": "الإقامة الجامعية مشدالة",
-            "wilaya": "البويرة",
-            "universityId": "univ-bouira",
-            "gender": "male",
-            "coordinates": {
-                "lat": 36.3760,
-                "lng": 4.2750
-            }
-        },
-        {
-            "id": "res-el-khroub-annaba-pont-blanc",
-            "name": "الإقامة الجامعية بونت بلون (إناث)",
-            "wilaya": "عنابة",
-            "universityId": "univ-annaba",
-            "gender": "female",
-            "coordinates": {
-                "lat": 36.8920,
-                "lng": 7.7495
-            }
-        },
-        {
-            "id": "res-oued-forcha-annaba",
-            "name": "الإقامة الجامعية وادي فرشة (ذكور)",
-            "wilaya": "عنابة",
-            "universityId": "univ-annaba",
-            "gender": "male",
-            "coordinates": {
-                "lat": 36.9110,
-                "lng": 7.7315
-            }
-        },
-        {
-            "id": "res-bouhadid-annaba",
-            "name": "الإقامة الجامعية بوحديد",
-            "wilaya": "عنابة",
-            "universityId": "univ-annaba",
-            "gender": "female",
-            "coordinates": {
-                "lat": 36.8855,
-                "lng": 7.7250
-            }
-        },
-        {
-            "id": "res-aflou-laghouat-male",
-            "name": "الإقامة الجامعية آفلو (ذكور)",
-            "wilaya": "الأغواط",
-            "universityId": "univ-laghouat",
-            "gender": "male",
-            "coordinates": {
-                "lat": 34.1180,
-                "lng": 2.0950
-            }
-        },
-        {
-            "id": "res-aflou-laghouat-female",
-            "name": "الإقامة الجامعية آفلو (إناث)",
-            "wilaya": "الأغواط",
-            "universityId": "univ-laghouat",
-            "gender": "female",
-            "coordinates": {
-                "lat": 34.1225,
-                "lng": 2.1020
-            }
-        },
-        {
-            "id": "res-ain-el-melh-msila",
-            "name": "الإقامة الجامعية عين الملح",
-            "wilaya": "المسيلة",
-            "universityId": "univ-msila",
-            "gender": "female",
-            "coordinates": {
-                "lat": 34.9810,
-                "lng": 4.1620
-            }
-        },
-        {
-            "id": "res-magra-msila",
-            "name": "الإقامة الجامعية مقرة",
-            "wilaya": "المسيلة",
-            "universityId": "univ-msila",
-            "gender": "male",
-            "coordinates": {
-                "lat": 35.6025,
-                "lng": 5.0740
-            }
-        },
-        {
-            "id": "res-hassi-messaoud-pole",
-            "name": "الإقامة الجامعية حاسي مسعود (المعهد الوطني للمحروقات)",
-            "wilaya": "ورقلة",
-            "universityId": "univ-ouargla",
-            "gender": "male",
-            "coordinates": {
-                "lat": 31.6910,
-                "lng": 6.0590
-            }
-        },
-        {
-            "id": "res-djamaa-female",
-            "name": "الإقامة الجامعية جامعة (إناث)",
-            "wilaya": "المغير",
-            "universityId": "univ-el-oued",
-            "gender": "female",
-            "coordinates": {
-                "lat": 33.5385,
-                "lng": 5.9920
-            }
-        },
-        {
-            "id": "res-ain-oussera-djelfa",
-            "name": "الإقامة الجامعية عين وسارة",
-            "wilaya": "الجلفة",
-            "universityId": "univ-djelfa",
-            "gender": "female",
-            "coordinates": {
-                "lat": 35.4520,
-                "lng": 2.9125
-            }
-        },
-                {
             "id": "res-vieux-kouba-male",
             "name": "الإقامة الجامعية القبة القديمة (ذكور)",
             "wilaya": "الجزائر",
@@ -2325,7 +2417,9 @@
             "coordinates": {
                 "lat": 36.7265,
                 "lng": 3.0815
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ben-aknoun-garcons",
@@ -2336,7 +2430,9 @@
             "coordinates": {
                 "lat": 36.7592,
                 "lng": 3.0135
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-biar-girls",
@@ -2347,7 +2443,9 @@
             "coordinates": {
                 "lat": 36.7712,
                 "lng": 3.0298
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bordj-el-bahri-male",
@@ -2357,8 +2455,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.7895,
-                "lng": 3.2420
-            }
+                "lng": 3.242
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tipaza-ville-centre",
@@ -2367,9 +2467,11 @@
             "universityId": "univ-tipaza",
             "gender": "female",
             "coordinates": {
-                "lat": 36.5910,
+                "lat": 36.591,
                 "lng": 2.4485
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tipaza-campus-male",
@@ -2378,9 +2480,11 @@
             "universityId": "univ-tipaza",
             "gender": "male",
             "coordinates": {
-                "lat": 36.5840,
-                "lng": 2.4390
-            }
+                "lat": 36.584,
+                "lng": 2.439
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tamda-1-male",
@@ -2389,9 +2493,11 @@
             "universityId": "univ-tizi-ouzou",
             "gender": "male",
             "coordinates": {
-                "lat": 36.7380,
+                "lat": 36.738,
                 "lng": 4.1915
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-oued-aissi-male",
@@ -2401,8 +2507,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.6945,
-                "lng": 4.1280
-            }
+                "lng": 4.128
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-draa-ben-khedda",
@@ -2411,9 +2519,11 @@
             "universityId": "univ-tizi-ouzou",
             "gender": "female",
             "coordinates": {
-                "lat": 36.7310,
-                "lng": 3.9620
-            }
+                "lat": 36.731,
+                "lng": 3.962
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-targa-ouzamour-male",
@@ -2423,8 +2533,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.7555,
-                "lng": 5.0440
-            }
+                "lng": 5.044
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-boukhalfa-girls",
@@ -2435,7 +2547,9 @@
             "coordinates": {
                 "lat": 36.7315,
                 "lng": 4.0195
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-akbou-pole",
@@ -2444,9 +2558,11 @@
             "universityId": "univ-bejaia",
             "gender": "male",
             "coordinates": {
-                "lat": 36.4520,
+                "lat": 36.452,
                 "lng": 4.5385
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-khroub-3-girls",
@@ -2455,9 +2571,11 @@
             "universityId": "univ-constantine-1",
             "gender": "female",
             "coordinates": {
-                "lat": 36.2640,
-                "lng": 6.6950
-            }
+                "lat": 36.264,
+                "lng": 6.695
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ain-el-bey-7-male",
@@ -2466,9 +2584,11 @@
             "universityId": "univ-constantine-3",
             "gender": "male",
             "coordinates": {
-                "lat": 36.3220,
-                "lng": 6.6210
-            }
+                "lat": 36.322,
+                "lng": 6.621
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-zarzara-constantine",
@@ -2477,9 +2597,11 @@
             "universityId": "univ-constantine-1",
             "gender": "female",
             "coordinates": {
-                "lat": 36.3610,
+                "lat": 36.361,
                 "lng": 6.6345
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ighel-ouazzoug-female",
@@ -2489,8 +2611,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.7485,
-                "lng": 5.0590
-            }
+                "lng": 5.059
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-sidi-amar-2-female",
@@ -2500,8 +2624,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.8155,
-                "lng": 7.7160
-            }
+                "lng": 7.716
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-mohadjed-annaba",
@@ -2510,9 +2636,11 @@
             "universityId": "univ-annaba",
             "gender": "male",
             "coordinates": {
-                "lat": 36.8990,
-                "lng": 7.7580
-            }
+                "lat": 36.899,
+                "lng": 7.758
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-eulma-male",
@@ -2521,9 +2649,11 @@
             "universityId": "univ-setif-1",
             "gender": "male",
             "coordinates": {
-                "lat": 36.1560,
+                "lat": 36.156,
                 "lng": 5.6885
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-eulma-female",
@@ -2533,8 +2663,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.1595,
-                "lng": 5.6940
-            }
+                "lng": 5.694
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-sig-mascara",
@@ -2543,9 +2675,11 @@
             "universityId": "univ-mascara",
             "gender": "female",
             "coordinates": {
-                "lat": 35.5340,
-                "lng": -0.1870
-            }
+                "lat": 35.534,
+                "lng": -0.187
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tighennif-mascara",
@@ -2554,9 +2688,11 @@
             "universityId": "univ-mascara",
             "gender": "male",
             "coordinates": {
-                "lat": 35.4190,
+                "lat": 35.419,
                 "lng": 0.3315
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-sougueur-tiaret",
@@ -2566,8 +2702,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 35.1875,
-                "lng": 1.4920
-            }
+                "lng": 1.492
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-frenda-tiaret",
@@ -2576,9 +2714,11 @@
             "universityId": "univ-tiaret",
             "gender": "male",
             "coordinates": {
-                "lat": 35.0620,
+                "lat": 35.062,
                 "lng": 1.0545
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-berriane-ghardaia",
@@ -2588,10 +2728,12 @@
             "gender": "female",
             "coordinates": {
                 "lat": 32.8315,
-                "lng": 3.7680
-            }
+                "lng": 3.768
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
-                {
+        {
             "id": "res-ain-el-bey-5-constantine",
             "name": "الإقامة الجامعية عين الباي 5",
             "wilaya": "قسنطينة",
@@ -2600,7 +2742,9 @@
             "coordinates": {
                 "lat": 36.3175,
                 "lng": 6.6168
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-chaiba-2-annaba",
@@ -2610,8 +2754,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.8062,
-                "lng": 7.7310
-            }
+                "lng": 7.731
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-oued-aissi-tamda-extension",
@@ -2622,7 +2768,9 @@
             "coordinates": {
                 "lat": 36.7368,
                 "lng": 4.1985
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-targa-ouzamour-girls-2",
@@ -2632,8 +2780,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.7605,
-                "lng": 5.0460
-            }
+                "lng": 5.046
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bab-ezzouar-1",
@@ -2643,8 +2793,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.7125,
-                "lng": 3.1810
-            }
+                "lng": 3.181
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bab-ezzouar-2",
@@ -2655,7 +2807,9 @@
             "coordinates": {
                 "lat": 36.7134,
                 "lng": 3.1832
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-belgaid-2-femmes",
@@ -2666,7 +2820,9 @@
             "coordinates": {
                 "lat": 35.7442,
                 "lng": -0.5295
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-belgaid-5-male",
@@ -2676,8 +2832,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 35.7375,
-                "lng": -0.5340
-            }
+                "lng": -0.534
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-mouhammadia-mascara",
@@ -2687,8 +2845,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 35.5875,
-                "lng": 0.0680
-            }
+                "lng": 0.068
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-khemis-miliana-cpa",
@@ -2697,9 +2857,11 @@
             "universityId": "univ-khemis-miliana",
             "gender": "male",
             "coordinates": {
-                "lat": 36.2660,
+                "lat": 36.266,
                 "lng": 2.2245
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-hidhab-4-femmes",
@@ -2708,9 +2870,11 @@
             "universityId": "univ-setif-1",
             "gender": "female",
             "coordinates": {
-                "lat": 36.2160,
-                "lng": 5.4370
-            }
+                "lat": 36.216,
+                "lng": 5.437
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-mabouda-femmes-setif",
@@ -2721,7 +2885,9 @@
             "coordinates": {
                 "lat": 36.1972,
                 "lng": 5.3945
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bouira-centre-old",
@@ -2731,8 +2897,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.3715,
-                "lng": 3.8990
-            }
+                "lng": 3.899
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-sidi-bel-abbes-centre",
@@ -2741,9 +2909,11 @@
             "universityId": "univ-sba",
             "gender": "female",
             "coordinates": {
-                "lat": 35.1950,
-                "lng": -0.6340
-            }
+                "lat": 35.195,
+                "lng": -0.634
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tagdempt-tiaret",
@@ -2752,9 +2922,11 @@
             "universityId": "univ-tiaret",
             "gender": "male",
             "coordinates": {
-                "lat": 35.3410,
-                "lng": 1.2580
-            }
+                "lat": 35.341,
+                "lng": 1.258
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-chetouane-2-female",
@@ -2764,8 +2936,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 34.9155,
-                "lng": -1.2820
-            }
+                "lng": -1.282
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-chetouane-3-male",
@@ -2774,9 +2948,11 @@
             "universityId": "univ-tlemcen",
             "gender": "male",
             "coordinates": {
-                "lat": 34.9170,
+                "lat": 34.917,
                 "lng": -1.2875
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-mila-centre-girls",
@@ -2786,8 +2962,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.4485,
-                "lng": 6.2640
-            }
+                "lng": 6.264
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-kantara-biskra",
@@ -2797,8 +2975,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 35.2215,
-                "lng": 5.7020
-            }
+                "lng": 5.702
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tolga-biskra",
@@ -2807,9 +2987,11 @@
             "universityId": "univ-biskra",
             "gender": "female",
             "coordinates": {
-                "lat": 34.7210,
-                "lng": 5.3850
-            }
+                "lat": 34.721,
+                "lng": 5.385
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-oued-pole-el-chahid",
@@ -2818,9 +3000,11 @@
             "universityId": "univ-el-oued",
             "gender": "male",
             "coordinates": {
-                "lat": 33.3590,
-                "lng": 6.8360
-            }
+                "lat": 33.359,
+                "lng": 6.836
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-oued-3-female",
@@ -2830,8 +3014,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 33.3685,
-                "lng": 6.8480
-            }
+                "lng": 6.848
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-sidi-okba-biskra",
@@ -2840,9 +3026,11 @@
             "universityId": "univ-biskra",
             "gender": "male",
             "coordinates": {
-                "lat": 34.7480,
-                "lng": 5.8990
-            }
+                "lat": 34.748,
+                "lng": 5.899
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ain-el-hadjar-saida",
@@ -2851,9 +3039,11 @@
             "universityId": "univ-saida",
             "gender": "male",
             "coordinates": {
-                "lat": 34.7540,
-                "lng": 0.1510
-            }
+                "lat": 34.754,
+                "lng": 0.151
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-attf-ghardaia",
@@ -2862,11 +3052,13 @@
             "universityId": "univ-ghardaia",
             "gender": "female",
             "coordinates": {
-                "lat": 32.4720,
-                "lng": 3.7390
-            }
+                "lat": 32.472,
+                "lng": 3.739
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
-                {
+        {
             "id": "res-talebabderrahmane-2",
             "name": "الإقامة الجامعية طالب عبد الرحمان 2",
             "wilaya": "الجزائر",
@@ -2875,7 +3067,9 @@
             "coordinates": {
                 "lat": 36.7705,
                 "lng": 3.0532
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ben-aknoun-mixte-medecine",
@@ -2884,9 +3078,11 @@
             "universityId": "univ-algiers-1",
             "gender": "female",
             "coordinates": {
-                "lat": 36.7580,
-                "lng": 3.0220
-            }
+                "lat": 36.758,
+                "lng": 3.022
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-dely-ibrahim-2",
@@ -2896,8 +3092,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.7522,
-                "lng": 2.9880
-            }
+                "lng": 2.988
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-boudouaou-3",
@@ -2907,8 +3105,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.7295,
-                "lng": 3.4140
-            }
+                "lng": 3.414
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-boumerdes-centre-inlec",
@@ -2917,9 +3117,11 @@
             "universityId": "univ-boumerdes",
             "gender": "male",
             "coordinates": {
-                "lat": 36.7640,
-                "lng": 3.4760
-            }
+                "lat": 36.764,
+                "lng": 3.476
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-es-senia-2-femmes",
@@ -2929,8 +3131,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 35.6582,
-                "lng": -0.6240
-            }
+                "lng": -0.624
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ain-el-turck-femmes",
@@ -2939,9 +3143,11 @@
             "universityId": "univ-oran-1",
             "gender": "female",
             "coordinates": {
-                "lat": 35.7460,
+                "lat": 35.746,
                 "lng": -0.7445
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bir-el-djir-femmes",
@@ -2950,9 +3156,11 @@
             "universityId": "univ-usto",
             "gender": "female",
             "coordinates": {
-                "lat": 35.7110,
+                "lat": 35.711,
                 "lng": -0.5735
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ain-el-bey-4-male",
@@ -2961,9 +3169,11 @@
             "universityId": "univ-constantine-3",
             "gender": "male",
             "coordinates": {
-                "lat": 36.3140,
-                "lng": 6.6260
-            }
+                "lat": 36.314,
+                "lng": 6.626
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ali-mendjeli-pole",
@@ -2973,8 +3183,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.2485,
-                "lng": 6.5740
-            }
+                "lng": 6.574
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-chaiba-3-femmes",
@@ -2983,9 +3195,11 @@
             "universityId": "univ-annaba",
             "gender": "female",
             "coordinates": {
-                "lat": 36.8080,
+                "lat": 36.808,
                 "lng": 7.7255
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-hadaiek-2-skikda",
@@ -2995,8 +3209,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.8355,
-                "lng": 6.9040
-            }
+                "lng": 6.904
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-hadaiek-3-skikda",
@@ -3007,7 +3223,9 @@
             "coordinates": {
                 "lat": 36.8335,
                 "lng": 6.9015
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-collo-annex-skikda",
@@ -3017,8 +3235,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 37.0065,
-                "lng": 6.5610
-            }
+                "lng": 6.561
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-el-milia-jijel",
@@ -3027,9 +3247,11 @@
             "universityId": "univ-jijel",
             "gender": "female",
             "coordinates": {
-                "lat": 36.7510,
+                "lat": 36.751,
                 "lng": 6.2625
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tassoust-male",
@@ -3039,8 +3261,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.7615,
-                "lng": 5.8690
-            }
+                "lng": 5.869
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-hasnaoua-2-female",
@@ -3050,8 +3274,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.7045,
-                "lng": 4.0560
-            }
+                "lng": 4.056
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-reghaia-male",
@@ -3061,8 +3287,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.7415,
-                "lng": 3.3320
-            }
+                "lng": 3.332
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tazoult-batna",
@@ -3071,9 +3299,11 @@
             "universityId": "univ-batna-1",
             "gender": "female",
             "coordinates": {
-                "lat": 35.4850,
-                "lng": 6.2570
-            }
+                "lat": 35.485,
+                "lng": 6.257
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ain-touta-batna",
@@ -3082,9 +3312,11 @@
             "universityId": "univ-batna-2",
             "gender": "male",
             "coordinates": {
-                "lat": 35.3780,
+                "lat": 35.378,
                 "lng": 5.8995
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-arzew-oran",
@@ -3093,9 +3325,11 @@
             "universityId": "univ-usto",
             "gender": "male",
             "coordinates": {
-                "lat": 35.8520,
-                "lng": -0.3180
-            }
+                "lat": 35.852,
+                "lng": -0.318
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-sidi-ali-mostaganem",
@@ -3104,9 +3338,11 @@
             "universityId": "univ-mostaganem",
             "gender": "female",
             "coordinates": {
-                "lat": 36.1750,
-                "lng": 0.4190
-            }
+                "lat": 36.175,
+                "lng": 0.419
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-chlef-ouled-fares-3",
@@ -3117,7 +3353,9 @@
             "coordinates": {
                 "lat": 36.2365,
                 "lng": 1.2845
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-tenes-chlef",
@@ -3126,9 +3364,11 @@
             "universityId": "univ-chlef",
             "gender": "female",
             "coordinates": {
-                "lat": 36.5080,
-                "lng": 1.3120
-            }
+                "lat": 36.508,
+                "lng": 1.312
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-bougtob-el-bayadh",
@@ -3137,20 +3377,24 @@
             "universityId": "univ-el-bayadh",
             "gender": "male",
             "coordinates": {
-                "lat": 34.0380,
-                "lng": 0.1490
-            }
+                "lat": 34.038,
+                "lng": 0.149
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
-                {
+        {
             "id": "res-esi-oued-smar",
             "name": "الإقامة الجامعية المدرسة الوطنية العليا للإعلام الآلي (ESI وادي السمار)",
             "wilaya": "الجزائر",
             "universityId": "univ-esi-algiers",
             "gender": "male",
             "coordinates": {
-                "lat": 36.7050,
+                "lat": 36.705,
                 "lng": 3.1735
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-esi-sba-femmes",
@@ -3160,8 +3404,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 35.2185,
-                "lng": -0.6310
-            }
+                "lng": -0.631
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-esi-sba-hommes",
@@ -3170,9 +3416,11 @@
             "universityId": "univ-esi-sba",
             "gender": "male",
             "coordinates": {
-                "lat": 35.2210,
+                "lat": 35.221,
                 "lng": -0.6275
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-pole-technologique-algiers",
@@ -3182,8 +3430,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.6735,
-                "lng": 2.8650
-            }
+                "lng": 2.865
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensa-el-harrach-inra",
@@ -3193,8 +3443,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.7225,
-                "lng": 3.1340
-            }
+                "lng": 3.134
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-cpa-bouzar-girls",
@@ -3203,9 +3455,11 @@
             "universityId": "univ-algiers-2",
             "gender": "female",
             "coordinates": {
-                "lat": 36.7890,
+                "lat": 36.789,
                 "lng": 3.0145
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-polytech-oran-male",
@@ -3215,8 +3469,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 35.7025,
-                "lng": -0.5890
-            }
+                "lng": -0.589
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-polytech-oran-female",
@@ -3225,9 +3481,11 @@
             "universityId": "univ-enp-oran",
             "gender": "female",
             "coordinates": {
-                "lat": 35.7050,
+                "lat": 35.705,
                 "lng": -0.5865
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-polytech-constantine-female",
@@ -3238,7 +3496,9 @@
             "coordinates": {
                 "lat": 36.3168,
                 "lng": 6.6135
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-bouzareah-male",
@@ -3248,8 +3508,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.7912,
-                "lng": 3.0210
-            }
+                "lng": 3.021
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-oran-female",
@@ -3259,8 +3521,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 35.6885,
-                "lng": -0.6190
-            }
+                "lng": -0.619
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-constantine-male",
@@ -3269,9 +3533,11 @@
             "universityId": "univ-ens-constantine",
             "gender": "male",
             "coordinates": {
-                "lat": 36.2510,
-                "lng": 6.5790
-            }
+                "lat": 36.251,
+                "lng": 6.579
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-constantine-female",
@@ -3282,7 +3548,9 @@
             "coordinates": {
                 "lat": 36.2535,
                 "lng": 6.5765
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-setif-male",
@@ -3292,8 +3560,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.1885,
-                "lng": 5.3890
-            }
+                "lng": 5.389
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-laghouat-mixed",
@@ -3303,8 +3573,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 33.7885,
-                "lng": 2.8610
-            }
+                "lng": 2.861
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-bechar-male",
@@ -3315,7 +3587,9 @@
             "coordinates": {
                 "lat": 31.6315,
                 "lng": -2.2175
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensmm-annaba-male",
@@ -3324,9 +3598,11 @@
             "universityId": "univ-ensmm-annaba",
             "gender": "male",
             "coordinates": {
-                "lat": 36.8210,
+                "lat": 36.821,
                 "lng": 7.7085
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-enst-algiers-dergana",
@@ -3335,9 +3611,11 @@
             "universityId": "univ-enst-algiers",
             "gender": "male",
             "coordinates": {
-                "lat": 36.7750,
+                "lat": 36.775,
                 "lng": 3.2515
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-essab-algiers-female",
@@ -3346,9 +3624,11 @@
             "universityId": "univ-essab-algiers",
             "gender": "female",
             "coordinates": {
-                "lat": 36.7260,
-                "lng": 3.1390
-            }
+                "lat": 36.726,
+                "lng": 3.139
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-kolea-commerce-male",
@@ -3357,9 +3637,11 @@
             "universityId": "univ-pole-kolea",
             "gender": "male",
             "coordinates": {
-                "lat": 36.6310,
-                "lng": 2.7660
-            }
+                "lat": 36.631,
+                "lng": 2.766
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-kolea-management-female",
@@ -3369,8 +3651,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.6285,
-                "lng": 2.7750
-            }
+                "lng": 2.775
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-oued-smar-filles",
@@ -3380,8 +3664,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.7075,
-                "lng": 3.1710
-            }
+                "lng": 3.171
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensb-sidi-abdellah",
@@ -3390,9 +3676,11 @@
             "universityId": "univ-pole-sidi-abdellah",
             "gender": "female",
             "coordinates": {
-                "lat": 36.6680,
-                "lng": 2.8730
-            }
+                "lat": 36.668,
+                "lng": 2.873
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-ouargla-female",
@@ -3402,8 +3690,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 31.9635,
-                "lng": 5.3390
-            }
+                "lng": 5.339
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-skikda-female",
@@ -3412,11 +3702,13 @@
             "universityId": "univ-ens-skikda",
             "gender": "female",
             "coordinates": {
-                "lat": 36.8390,
-                "lng": 6.8970
-            }
+                "lat": 36.839,
+                "lng": 6.897
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
-                {
+        {
             "id": "res-esi-oued-smar-annex-male",
             "name": "الإقامة الجامعية ملحقة وادي السمار ESI (ذكور)",
             "wilaya": "الجزائر",
@@ -3425,7 +3717,9 @@
             "coordinates": {
                 "lat": 36.7032,
                 "lng": 3.1762
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensia-sidi-abdellah-male",
@@ -3436,7 +3730,9 @@
             "coordinates": {
                 "lat": 36.6748,
                 "lng": 2.8624
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensm-sidi-abdellah-female",
@@ -3447,7 +3743,9 @@
             "coordinates": {
                 "lat": 36.6725,
                 "lng": 2.8665
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensi-sba-sud-male",
@@ -3458,7 +3756,9 @@
             "coordinates": {
                 "lat": 35.2162,
                 "lng": -0.6335
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensi-sba-residence-2-female",
@@ -3468,8 +3768,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 35.2238,
-                "lng": -0.6250
-            }
+                "lng": -0.625
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-pole-cybersecurite-sidi-abdellah",
@@ -3478,9 +3780,11 @@
             "universityId": "univ-pole-sidi-abdellah",
             "gender": "female",
             "coordinates": {
-                "lat": 36.6760,
+                "lat": 36.676,
                 "lng": 2.8602
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-kouba-garcons",
@@ -3491,7 +3795,9 @@
             "coordinates": {
                 "lat": 36.7288,
                 "lng": 3.0782
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-kouba-filles",
@@ -3502,7 +3808,9 @@
             "coordinates": {
                 "lat": 36.7252,
                 "lng": 3.0745
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-esc-kolea-female",
@@ -3513,7 +3821,9 @@
             "coordinates": {
                 "lat": 36.6335,
                 "lng": 2.7635
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-esg-kolea-male",
@@ -3522,9 +3832,11 @@
             "universityId": "univ-pole-kolea",
             "gender": "male",
             "coordinates": {
-                "lat": 36.6350,
-                "lng": 2.7610
-            }
+                "lat": 36.635,
+                "lng": 2.761
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-laghouat-male-annex",
@@ -3533,9 +3845,11 @@
             "universityId": "univ-ens-laghouat",
             "gender": "male",
             "coordinates": {
-                "lat": 33.7860,
+                "lat": 33.786,
                 "lng": 2.8635
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-setif-female-campus",
@@ -3545,8 +3859,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.1912,
-                "lng": 5.3860
-            }
+                "lng": 5.386
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-ouargla-male-annex",
@@ -3555,9 +3871,11 @@
             "universityId": "univ-ens-ouargla",
             "gender": "male",
             "coordinates": {
-                "lat": 31.9660,
+                "lat": 31.966,
                 "lng": 5.3365
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-skikda-male-annex",
@@ -3568,7 +3886,9 @@
             "coordinates": {
                 "lat": 36.8415,
                 "lng": 6.8942
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-enst-dergana-female",
@@ -3578,8 +3898,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.7772,
-                "lng": 3.2490
-            }
+                "lng": 3.249
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensa-belfort-female-annex",
@@ -3590,7 +3912,9 @@
             "coordinates": {
                 "lat": 36.7238,
                 "lng": 3.1382
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensmm-annaba-female",
@@ -3601,7 +3925,9 @@
             "coordinates": {
                 "lat": 36.8235,
                 "lng": 7.7058
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-bechar-female-annex",
@@ -3611,8 +3937,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 31.6338,
-                "lng": -2.2150
-            }
+                "lng": -2.215
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-oran-male-annex",
@@ -3621,9 +3949,11 @@
             "universityId": "univ-ens-oran",
             "gender": "male",
             "coordinates": {
-                "lat": 35.6860,
+                "lat": 35.686,
                 "lng": -0.6215
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-pole-nano-sidi-abdellah",
@@ -3633,10 +3963,12 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.6775,
-                "lng": 2.8580
-            }
+                "lng": 2.858
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
-                {
+        {
             "id": "res-esi-algiers-residence-principale",
             "name": "الإقامة الجامعية المركزية للمدرسة العليا للإعلام الآلي ESI الجزائر",
             "wilaya": "الجزائر",
@@ -3645,7 +3977,9 @@
             "coordinates": {
                 "lat": 36.7061,
                 "lng": 3.1748
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-esi-algiers-campus-filles",
@@ -3656,7 +3990,9 @@
             "coordinates": {
                 "lat": 36.7042,
                 "lng": 3.1721
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-esi-sba-campus-central",
@@ -3667,7 +4003,9 @@
             "coordinates": {
                 "lat": 35.2198,
                 "lng": -0.6292
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-pole-robotique-sidi-abdellah",
@@ -3677,8 +4015,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 36.6755,
-                "lng": 2.8640
-            }
+                "lng": 2.864
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-pole-ia-filles-sidi-abdellah",
@@ -3689,7 +4029,9 @@
             "coordinates": {
                 "lat": 36.6718,
                 "lng": 2.8692
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-inph-boumerdes-male",
@@ -3700,7 +4042,9 @@
             "coordinates": {
                 "lat": 36.7595,
                 "lng": 3.4682
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-inph-boumerdes-female",
@@ -3710,8 +4054,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.7628,
-                "lng": 3.4650
-            }
+                "lng": 3.465
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-enstp-kouba-male",
@@ -3722,7 +4068,9 @@
             "coordinates": {
                 "lat": 36.7192,
                 "lng": 3.0795
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensh-blida-male",
@@ -3731,9 +4079,11 @@
             "universityId": "univ-ensh-blida",
             "gender": "male",
             "coordinates": {
-                "lat": 36.5140,
+                "lat": 36.514,
                 "lng": 2.8812
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensh-blida-female",
@@ -3744,7 +4094,9 @@
             "coordinates": {
                 "lat": 36.5162,
                 "lng": 2.8845
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensv-el-harrach-male",
@@ -3753,9 +4105,11 @@
             "universityId": "univ-ensv-algiers",
             "gender": "male",
             "coordinates": {
-                "lat": 36.7170,
+                "lat": 36.717,
                 "lng": 3.1388
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensv-el-harrach-female",
@@ -3766,7 +4120,9 @@
             "coordinates": {
                 "lat": 36.7155,
                 "lng": 3.1402
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensa-oran-male",
@@ -3777,7 +4133,9 @@
             "coordinates": {
                 "lat": 35.7008,
                 "lng": -0.5925
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensa-oran-female",
@@ -3788,7 +4146,9 @@
             "coordinates": {
                 "lat": 35.7036,
                 "lng": -0.5902
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensb-constantine-male",
@@ -3799,7 +4159,9 @@
             "coordinates": {
                 "lat": 36.2462,
                 "lng": 6.5715
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensb-constantine-female",
@@ -3808,9 +4170,11 @@
             "universityId": "univ-ensb-constantine",
             "gender": "female",
             "coordinates": {
-                "lat": 36.2440,
-                "lng": 6.5750
-            }
+                "lat": 36.244,
+                "lng": 6.575
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-tlemcen-male",
@@ -3821,7 +4185,9 @@
             "coordinates": {
                 "lat": 34.8872,
                 "lng": -1.3285
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-tlemcen-female",
@@ -3831,8 +4197,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 34.8895,
-                "lng": -1.3250
-            }
+                "lng": -1.325
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-bou-saada-male",
@@ -3842,8 +4210,10 @@
             "gender": "male",
             "coordinates": {
                 "lat": 35.2952,
-                "lng": 4.2050
-            }
+                "lng": 4.205
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-bou-saada-female",
@@ -3852,11 +4222,13 @@
             "universityId": "univ-ens-bousaada",
             "gender": "female",
             "coordinates": {
-                "lat": 35.2970,
+                "lat": 35.297,
                 "lng": 4.2085
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
-                {
+        {
             "id": "res-esi-oued-smar-pavillon-c",
             "name": "الإقامة الجامعية جناح المهندسين ESI (وادي السمار)",
             "wilaya": "الجزائر",
@@ -3865,7 +4237,9 @@
             "coordinates": {
                 "lat": 36.7046,
                 "lng": 3.1755
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-esi-algiers-residence-cadres",
@@ -3876,7 +4250,9 @@
             "coordinates": {
                 "lat": 36.7068,
                 "lng": 3.1738
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-esi-sba-pavillon-nord",
@@ -3887,7 +4263,9 @@
             "coordinates": {
                 "lat": 35.2225,
                 "lng": -0.6288
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-esi-sba-pavillon-est-filles",
@@ -3898,7 +4276,9 @@
             "coordinates": {
                 "lat": 35.2202,
                 "lng": -0.6264
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-esi-sidi-abdellah-annex-male",
@@ -3907,9 +4287,11 @@
             "universityId": "univ-pole-sidi-abdellah",
             "gender": "male",
             "coordinates": {
-                "lat": 36.6740,
+                "lat": 36.674,
                 "lng": 2.8632
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-esi-sidi-abdellah-annex-female",
@@ -3918,9 +4300,11 @@
             "universityId": "univ-pole-sidi-abdellah",
             "gender": "female",
             "coordinates": {
-                "lat": 36.6710,
+                "lat": 36.671,
                 "lng": 2.8672
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-insea-algiers-male",
@@ -3931,7 +4315,9 @@
             "coordinates": {
                 "lat": 36.6322,
                 "lng": 2.7648
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-insea-algiers-female",
@@ -3942,7 +4328,9 @@
             "coordinates": {
                 "lat": 36.6298,
                 "lng": 2.7712
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensa-algiers-el-harrach-east",
@@ -3952,8 +4340,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.7219,
-                "lng": 3.1360
-            }
+                "lng": 3.136
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-enp-oran-campus-sud",
@@ -3964,7 +4354,9 @@
             "coordinates": {
                 "lat": 35.7018,
                 "lng": -0.5878
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-enp-oran-campus-nord-filles",
@@ -3974,8 +4366,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 35.7042,
-                "lng": -0.5850
-            }
+                "lng": -0.585
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-polytech-constantine-male-annex",
@@ -3984,9 +4378,11 @@
             "universityId": "univ-constantine-3",
             "gender": "male",
             "coordinates": {
-                "lat": 36.3160,
+                "lat": 36.316,
                 "lng": 6.6122
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensmm-annaba-residence-principale",
@@ -3997,7 +4393,9 @@
             "coordinates": {
                 "lat": 36.8222,
                 "lng": 7.7072
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-enst-dergana-residence-cadres",
@@ -4008,7 +4406,9 @@
             "coordinates": {
                 "lat": 36.7761,
                 "lng": 3.2502
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ensb-sidi-abdellah-male",
@@ -4017,9 +4417,11 @@
             "universityId": "univ-pole-sidi-abdellah",
             "gender": "male",
             "coordinates": {
-                "lat": 36.6690,
+                "lat": 36.669,
                 "lng": 2.8718
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-kouba-annex-cheraga",
@@ -4029,8 +4431,10 @@
             "gender": "female",
             "coordinates": {
                 "lat": 36.7672,
-                "lng": 2.9560
-            }
+                "lng": 2.956
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-oran-maraval-annex",
@@ -4041,7 +4445,9 @@
             "coordinates": {
                 "lat": 35.6872,
                 "lng": -0.6202
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-constantine-residence-verte",
@@ -4052,7 +4458,9 @@
             "coordinates": {
                 "lat": 36.2522,
                 "lng": 6.5778
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-ouargla-residence-principale",
@@ -4063,7 +4471,9 @@
             "coordinates": {
                 "lat": 31.9648,
                 "lng": 5.3378
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
         },
         {
             "id": "res-ens-bechar-annex-sud",
@@ -4074,8 +4484,35 @@
             "coordinates": {
                 "lat": 31.6328,
                 "lng": -2.2162
-            }
+            },
+            "geo_verified": false,
+            "geo_verification_status": "needs_independent_review"
+        },
+        {
+            "id": "res-bejaia-17-octobre-1961",
+            "name": "الإقامة الجامعية 17 أكتوبر 1961",
+            "wilaya": "بجاية",
+            "universityId": "univ-bejaia",
+            "gender": "unknown",
+            "coordinates": {
+                "lat": 36.74688,
+                "lng": 5.05485
+            },
+            "geo_verified": true,
+            "coordinateSource": "OpenStreetMap node 5430424828"
+        },
+        {
+            "id": "res-ksar-chellala-saad-dahleb",
+            "name": "الإقامة الجامعية سعد دحلب – قصر الشلالة",
+            "wilaya": "تيارت",
+            "universityId": "univ-tiaret",
+            "gender": "unknown",
+            "coordinates": {
+                "lat": 35.24939,
+                "lng": 2.29389
+            },
+            "geo_verified": true,
+            "coordinateSource": "OpenStreetMap way 318025554"
         }
-
     ]
 }
